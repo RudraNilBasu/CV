@@ -45,7 +45,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
-\documentclass[]{deedy-resume-openfont}
+\documentclass[]{rudra-resume-openfont}
 \usepackage{fancyhdr}
  
 \pagestyle{fancy}
@@ -208,7 +208,7 @@ All projects available at \textbf{ \href{https://github.com/RudraNilBasu}{github
 \textbullet{} \textbf{Web Admin} Created and maintained websites of \textit{\textbf{Konstruct 2016}}, the annual Open source fest of our college and International Conference on Advanced Computing, 2016, which was organised by my college.\\
 \location{Participant}
 \textbullet{} Participated in various online game jams, online coding competitions and offline competitions held in my college\\
-\textbullet{} \textit{\textbf{Global Game Jam 2017}}: Participated in Global Game Jam 2017, (Kolkata site).\\ 
+\textbullet{} \textit{\textbf{Global Game Jam 2017}}: Participated in Global Game Jam 2017 (Kolkata site).\\ 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     PUBLICATIONS
