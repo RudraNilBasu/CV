@@ -105,7 +105,9 @@ ICSE - 92\% \\
 \section{Links} 
 Github:// \href{https://github.com/RudraNilBasu}{\bf RudraNilBasu} \\
 LinkedIn://  \href{https://www.linkedin.com/in/rudranilbasu/}{\bf rudranilbasu} \\
-Quora://  \href{https://www.quora.com/Rudra-Nil-Basu}{\bf Rudra-Nil-Basu}
+%Quora://  \href{https://www.quora.com/Rudra-Nil-Basu}{\bf Rudra-Nil-Basu}
+SPOJ://  \href{http://www.spoj.com/users/r_n_b/}{\bf r\_n\_b}\\
+Codechef://  \href{https://www.codechef.com/users/r_n_b}{\bf r\_n\_b}
 
 
 
@@ -117,17 +119,17 @@ Quora://  \href{https://www.quora.com/Rudra-Nil-Basu}{\bf Rudra-Nil-Basu}
 
 \subsection{Languages}
 \textbullet{} C \textbullet{} C++ \textbullet{} Java \textbullet{} Javascript\\
-\textbullet{} Python \textbullet{} UnityScript \textbullet{} C\#
+\textbullet{} Python \textbullet{} UnityScript \textbullet{} C\# \textbullet{} QML
 
 \subsection{Tools}
 \textbullet{} Unity3D \textbullet{} Visual Studio \textbullet{} Blender \\
-\textbullet{} Git \textbullet{} \LaTeX \textbullet{} Qt Creator
+\textbullet{} Git \textbullet{} \LaTeX \textbullet{} Qt
 
 \subsection{Operating System}
 \textbullet{} GNU Linux \textbullet{} Windows
 
 \section{Courses}
-\textbullet{} Data Structures and Algorithm \textbullet{} Operating System \textbullet{}  Computer Graphics \textbullet{} Database Management System \textbullet{} Automata Theory
+\textbullet{} Data Structures and Algorithm \textbullet{} Operating System \textbullet{}  Computer Graphics \textbullet{} Database Management System \textbullet{} Automata Theory \textbullet{} Networking
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
@@ -144,13 +146,24 @@ Quora://  \href{https://www.quora.com/Rudra-Nil-Basu}{\bf Rudra-Nil-Basu}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Experience}
+\runsubsection{KDE}
+\descript{| Google Summer of Code student }
+\location{May - Present 2017 | Kolkata, West Bengal}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightemize}
+\item Porting activities from GTK+ version to Qt version of GCompris
+\item \textbf{Languages / Technologies}: Qt, C++, Javascript, Qml
+\end{tightemize}
+
 \runsubsection{Centauri Services}
 \descript{| Game Development Intern }
 \location{July - Sept. 2016 | Kolkata, West Bengal}
-\vspace{\topsep} % Hacky fix for awkward extra vertical space
+%\vspace{\topsep} % Hacky fix for awkward extra vertical space
 \begin{tightemize}
-\item Created various miniclip games and a 3D shooting game for Android
-\item Created the 3D world and programmed various gameplay elements
+\item Implemented gameplay elements in a 3D world along with some miniclip games
+%\item Created various miniclip games and a 3D shooting game for Android
+%\item Created the 3D world and programmed various gameplay elements
+\item \textbf{Languages / Technologies}: Unity3D, Blender, C\# 
 \end{tightemize}
 \sectionsep
 
@@ -173,6 +186,8 @@ Few of them are listed below:\\
 \textbullet{} \textbf{ \href{http://gamejolt.com/games/trapped/229317}{Trapped}} \textit{(2017)}: Made within 48 hours for \textit{\textbf{2017 Global Game Jam}} with the theme \textit{"Waves"}\\
 \textit{Role}: Programming, Design
 
+\textbf{Languages / Technologies}: Unity3D, Blender, C\# for scripting
+
 
 \sectionsep
 
@@ -181,7 +196,9 @@ Few of them are listed below:\\
 \location{2015 – Current}
 All projects available at \textbf{ \href{https://github.com/RudraNilBasu}{github.com/RudraNilBasu} }
 
-\textbullet{} \textbf{ \href{https://github.com/parkjs814/AlgorithmVisualizer}{Algorithm Visualizer} } \textit{(2016)}: An open source project to visualize standard algorithms, I was responsible for contributing on various algorithms in this project. 
+\textbullet{} \textbf{ \href{https://github.com/parkjs814/AlgorithmVisualizer}{Algorithm Visualizer} } \textit{(2016)}: An open source project to visualize standard algorithms, I was responsible for contributing on various algorithms in this project.\\ 
+\textbullet{} \textbf{\href{https://github.com/gcompris/GCompris-qt}{GCompris} } \textit{(2017)}: Contributed to KDE's GCompris by adding new activities and porting activities from GTK version to Qt version\\
+\textbullet{} \textbf{\href{https://github.com/BytesClub/chalk}{Chalk} } \textit{(2017)}: A command line text editor written in C
 \sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -200,7 +217,9 @@ All projects available at \textbf{ \href{https://github.com/RudraNilBasu}{github
 
 \begin{tabular}{rl}
 2015-16	     & 2 times Runner's up, NASSCOM Gaming Forum Awards - \textbf{Student Game of the} \\ & \textbf{Year}. Awarded at NASSCOM Game Developer Conference for \textit{"Fortior"} (2015) \\ & and \textit{"DuraTron"} (2016)\\
-2015-16	     & Various online game jams by GameJolt - 3rd in 2015 Asylum Jam (for \textit{"Hysteria"})\\ & 1st in 2016 badboxart jam (for \textit{"The Hunger Game"})\\
+
+2015-17	     & Ludum Dare (Top 20\% overall for \textit{"Evolve"}) and various online game jams by \\ & GameJolt - 3rd in 2015 Asylum Jam (for \textit{"Hysteria"})\\ & 1st in 2016 badboxart jam (for \textit{"The Hunger Game"})\\
+
 2015      & 1st Place in Mechanical Design for \textit{"Skyfall"}, a manually controlled robotics event\\ & organised by KSHITIJ, IIT Kharagpur's Annual Tech Fest\\
 \end{tabular}
 
@@ -208,11 +227,12 @@ All projects available at \textbf{ \href{https://github.com/RudraNilBasu}{github
 
 \section{Activities}
 \renewcommand\refname{\vskip -1.5cm}
-\textbullet{} \textbf{Web Admin} Created and maintained websites of \textit{\textbf{Konstruct 2016}}, the annual Open source fest of our college and International Conference on Advanced Computing, 2016, which was organised by my college.\\
+\textbf{\href{https://github.com/BytesClub}{Bytes Club}}: Head of Bytes Club, the coding club of WBUT In-House\\
 \location{Participant}
-\textbullet{} Participated in various online game jams, including Ludum Dare and jams hosted by GameJolt\\
+\textbullet{} Online game jams, including Ludum Dare and jams hosted by GameJolt\\
 \textbullet{} Participated in online and offline coding competitions\\
 \textbullet{} \textit{\textbf{Global Game Jam 2017}}: Participated in Global Game Jam 2017 (Kolkata site).\\ 
+\textbullet{} \textbf{Web Admin} Created and maintained websites of \textit{\textbf{Konstruct 2016}}, the annual Open source fest of our college and International Conference on Advanced Computing, 2016, which was organised by my college.\\
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     PUBLICATIONS
