@@ -123,7 +123,10 @@ Codechef://  \href{https://www.codechef.com/users/r_n_b}{\bf r\_n\_b}
 
 \subsection{Tools}
 \textbullet{} Unity3D \textbullet{} Visual Studio \textbullet{} Blender \\
-\textbullet{} Git \textbullet{} \LaTeX \textbullet{} Qt
+\textbullet{} Git \textbullet{} NodeJs \textbullet{} \LaTeX \textbullet{} Qt
+
+\subsection{Database}
+\textbullet{} MySQL 
 
 \subsection{Operating System}
 \textbullet{} GNU Linux \textbullet{} Windows
@@ -180,7 +183,7 @@ Codechef://  \href{https://www.codechef.com/users/r_n_b}{\bf r\_n\_b}
 Over \textbf{15+} personal projects, including various peronal and jam games. Most of them are available at my portfolio ( \textbf{\href{http://rudranilbasu.github.io/}{rudranilbasu.github.io}} ).\\
 Few of them are listed below:\\
 
-\textbullet{} \textbf{ \href{http://gamejolt.com/games/followed/208481}{Followed}} \textit{(2016)}: 3D horror game made within 48 hours for the 2016 Asylum Jam organised by GameJolt, currently played over 1800+ times on GameJolt\\
+\textbullet{} \textbf{ \href{http://gamejolt.com/games/followed/208481}{Followed}} \textit{(2016)}: 3D horror game made within 48 hours for the 2016 Asylum Jam organised by GameJolt, currently played over 2100+ times on GameJolt\\
 \textit{Role}: Programming, Design, Graphics
 
 \textbullet{} \textbf{ \href{http://gamejolt.com/games/trapped/229317}{Trapped}} \textit{(2017)}: Made within 48 hours for \textit{\textbf{2017 Global Game Jam}} with the theme \textit{"Waves"}\\
@@ -198,6 +201,10 @@ All projects available at \textbf{ \href{https://github.com/RudraNilBasu}{github
 
 \textbullet{} \textbf{ \href{https://github.com/parkjs814/AlgorithmVisualizer}{Algorithm Visualizer} } \textit{(2016)}: An open source project to visualize standard algorithms, I was responsible for contributing on various algorithms in this project.\\ 
 \textbullet{} \textbf{\href{https://github.com/gcompris/GCompris-qt}{GCompris} } \textit{(2017)}: Contributed to KDE's GCompris by adding new activities and porting activities from GTK version to Qt version\\
+\textbullet{} \textbf{\href{https://github.com/RudraNilBasu/GameBook}{GameBook} } \textit{(2017)}: A library of video games and their reviews.
+
+\textbf{Languages / Technologies}: NodeJS, MySQL.
+\\
 \textbullet{} \textbf{\href{https://github.com/BytesClub/chalk}{Chalk} } \textit{(2017)}: A command line text editor written in C
 \sectionsep
 
