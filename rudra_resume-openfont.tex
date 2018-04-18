@@ -1,0 +1,278 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Deedy - One Page Two Column Resume
+% LaTeX Template
+% Version 1.2 (16/9/2014)
+%
+% Original author:
+% Debarghya Das (http://debarghyadas.com)
+%
+% Original repository:
+% https://github.com/deedydas/Deedy-Resume
+%
+% IMPORTANT: THIS TEMPLATE NEEDS TO BE COMPILED WITH XeLaTeX
+%
+% This template uses several fonts not included with Windows/Linux by
+% default. If you get compilation errors saying a font is missing, find the line
+% on which the font is used and either change it to a font included with your
+% operating system or comment the line out to use the default font.
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 
+% TODO:
+% 1. Integrate biber/bibtex for article citation under publications.
+% 2. Figure out a smoother way for the document to flow onto the next page.
+% 3. Add styling information for a "Projects/Hacks" section.
+% 4. Add location/address information
+% 5. Merge OpenFont and MacFonts as a single sty with options.
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% CHANGELOG:
+% v1.1:
+% 1. Fixed several compilation bugs with \renewcommand
+% 2. Got Open-source fonts (Windows/Linux support)
+% 3. Added Last Updated
+% 4. Move Title styling into .sty
+% 5. Commented .sty file.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Known Issues:
+% 1. Overflows onto second page if any column's contents are more than the
+% vertical limit
+% 2. Hacky space on the first bullet point on the second column.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\documentclass[]{rudra-resume-openfont}
+\usepackage{fancyhdr}
+ 
+\pagestyle{fancy}
+\fancyhf{}
+ 
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     LAST UPDATED DATE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\lastupdated
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     TITLE NAME
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\namesection{Rudra Nil}{Basu}{ \urlstyle{same}\href{http://rudranilbasu.github.io/}{rudranilbasu.me} \\
+\href{mailto:rudra.nil.basu.1996@gmail.com}{rudra.nil.basu.1996@gmail.com} | \(+91\) 8420650826 
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN ONE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{minipage}[t]{0.33\textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EDUCATION
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Education} 
+
+
+\subsection{WBUT (In-House)}
+\descript{B.Tech in Computer Science}
+\location{August 2014 - Present | Kolkata, WB}
+West Bengal University Of Technology\\
+\location{ GPA: 7.88 / 10.0}
+\sectionsep
+
+\subsection{VMS, Joka}
+\descript{Council for the Indian School Certificate Examinations}
+\location{1999-2014  |  Kolkata, India}
+ISC - 94\% \\
+ICSE - 92\% \\
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     LINKS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Links} 
+Github:// \href{https://github.com/RudraNilBasu}{\bf RudraNilBasu} \\
+LinkedIn://  \href{https://www.linkedin.com/in/rudranilbasu/}{\bf rudranilbasu} \\
+%Quora://  \href{https://www.quora.com/Rudra-Nil-Basu}{\bf Rudra-Nil-Basu}
+SPOJ://  \href{http://www.spoj.com/users/r_n_b/}{\bf r\_n\_b}\\
+Codechef://  \href{https://www.codechef.com/users/r_n_b}{\bf r\_n\_b}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     SKILLS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Skills}
+
+\subsection{Languages}
+\textbullet{} C \textbullet{} C++ \textbullet{} Java \textbullet{} Javascript\\
+\textbullet{} Python \textbullet{} UnityScript \textbullet{} C\# \textbullet{} QML
+
+\subsection{Tools}
+\textbullet{} Unity3D \textbullet{} Visual Studio \textbullet{} Blender \\
+\textbullet{} Git \textbullet{} NodeJs \textbullet{} \LaTeX \textbullet{} Qt \textbullet{} Docker
+
+\subsection{Database}
+\textbullet{} MySQL 
+
+\subsection{Operating System}
+\textbullet{} GNU Linux \textbullet{} Unix \textbullet{} Windows
+
+\section{Courses}
+\textbullet{} Data Structures and Algorithm \textbullet{} Operating System \textbullet{}  Computer Graphics \textbullet{} Database Management System \textbullet{} Automata Theory \textbullet{} Networking
+
+\section{Activities}
+\renewcommand\refname{\vskip -1.5cm}
+\textbullet{}  \textbf{\href{https://github.com/BytesClub}{Bytes Club}}: Head of Bytes Club, the open source coding club of WBUT In-House\\
+\textbullet{}  \textbf{\href{season.kde.org/?q=program_home&prg=46}{Season of KDE 2017}} mentor for GCompris\\
+%\location{Participant}
+\textbullet{} ACM ICPC 2017 Regionals (Amritapuri site)\\
+\textbullet{} Online game jams, including Ludum Dare and jams hosted by GameJolt and various online and offline coding competitions\\
+%\textbullet{} Participated in online and offline coding competitions\\
+\textbullet{} \textit{\textbf{Global Game Jam 2017}}: Participated in Global Game Jam 2017 (Kolkata site).\\ 
+%\textbullet{} \textbf{Web Admin} Created and maintained websites of \textit{\textbf{Konstruct 2016}}, the annual Open source fest of our college and International Conference on Advanced Computing, 2016, which was organised by my college.\\
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN TWO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{minipage} 
+\hfill
+\begin{minipage}[t]{0.66\textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EXPERIENCE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Experience}
+
+\runsubsection{HackerRank}
+\descript{| Software Development Intern }
+\location{January - Present 2018 | Bangalore}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightemize}
+\item Added default code stubs in CodePair when a language is selected
+\item \textbf{Languages / Technologies}: C++, React, Javascript, Docker, AWS
+\end{tightemize}
+
+\runsubsection{KDE}
+\descript{| Google Summer of Code student }
+\location{May - August 2017 | Kolkata, West Bengal}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightemize}
+\item Porting activities from GTK+ version to Qt version of GCompris
+\item \textbf{Languages / Technologies}: Qt, C++, Javascript, Qml
+\end{tightemize}
+
+%\runsubsection{Centauri Services}
+%\descript{| Game Development Intern }
+%\location{July - Sept. 2016 | Kolkata, West Bengal}
+%%\vspace{\topsep} % Hacky fix for awkward extra vertical space
+%\begin{tightemize}
+%\item Implemented gameplay elements in a 3D world along with some miniclip games
+%%\item Created various miniclip games and a 3D shooting game for Android
+%%\item Created the 3D world and programmed various gameplay elements
+%\item \textbf{Languages / Technologies}: Unity3D, Blender, C\# 
+%\end{tightemize}
+\sectionsep
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     PROJECTS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Projects}
+\runsubsection{Video Game Development}
+\descript{| Programmer and Designer}
+\location{ 2013 – Current }
+
+Over \textbf{15+} personal projects, including various peronal and jam games. Most of them are available at my portfolio ( \textbf{\href{http://rudranilbasu.github.io/}{rudranilbasu.github.io}} ).\\
+Few of them are listed below:\\
+
+\textbullet{} \textbf{ \href{http://gamejolt.com/games/followed/208481}{Followed}} \textit{(2016)}: 3D horror game made within 48 hours for the 2016 Asylum Jam organised by GameJolt, currently played over 2100+ times on GameJolt\\
+\textit{Role}: Programming, Design, Graphics
+
+\textbullet{} \textbf{ \href{http://gamejolt.com/games/trapped/229317}{Trapped}} \textit{(2017)}: Made within 48 hours for \textit{\textbf{2017 Global Game Jam}} with the theme \textit{"Waves"}\\
+\textit{Role}: Programming, Design
+
+\textbf{Languages / Technologies}: Unity3D, Blender, C\# for scripting
+
+
+\sectionsep
+
+\runsubsection{Open Source}
+%\descript{| Head Undergraduate Researcher}
+\location{2015 – Current}
+All projects available at \textbf{ \href{https://github.com/RudraNilBasu}{github.com/RudraNilBasu} }
+
+\textbullet{} \textbf{ \href{https://github.com/parkjs814/AlgorithmVisualizer}{Algorithm Visualizer} } \textit{(2016)}: An open source project to visualize standard algorithms, I was responsible for contributing on various algorithms in this project.\\ 
+\textbullet{} \textbf{\href{https://github.com/gcompris/GCompris-qt}{GCompris} } \textit{(2017)}: Contributed to KDE's GCompris by adding new activities and porting activities from GTK version to Qt version\\
+\textbullet{} \textbf{\href{https://github.com/RudraNilBasu/GameBook}{GameBook} } \textit{(2017)}: A library of video games and their reviews.
+
+\textbf{Languages / Technologies}: NodeJS, MySQL.
+\\
+\textbullet{} \textbf{\href{https://github.com/BytesClub/chalk}{Chalk} } \textit{(2017)}: A command line text editor written in C
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     AWARDS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Achievements and Awards} 
+%\begin{tabular}{rll}
+%2014	     & top 52/2500  & KPCB Engineering Fellow\\
+%2014	     & 1\textsuperscript{st}/50  & Microsoft Coding Competition, Cornell\\
+%2013	     & National  & Jump Trading Challenge Finalist\\
+%2013     & 7\textsuperscript{th}/120 & CS 3410 Cache Race Bot Tournament  \\
+%2012     & 2\textsuperscript{nd}/150 & CS 3110 Biannual Intra-Class Bot Tournament \\
+%2011     & National & Indian National Mathematics Olympiad (INMO) Finalist \\
+%\end{tabular}
+
+\begin{tabular}{rl}
+2015-17	     & 3 times Runner's up, NASSCOM Gaming Forum Awards - \textbf{Student Game of the} \\ & \textbf{Year}. Awarded at NASSCOM Game Developer Conference for \textit{"Fortior"} (2015) \\ & , \textit{"DuraTron"} (2016) and {"Evolve"} (2017)\\
+
+2015-17	     & Ludum Dare (Top 20\% overall for \textit{"Evolve"}) and various online game jams by \\ & GameJolt - 3rd in 2015 Asylum Jam (for \textit{"Hysteria"})\\ & 1st in 2016 badboxart jam (for \textit{"The Hunger Game"})\\
+
+2015      & 1st Place in Mechanical Design for \textit{"Skyfall"}, a manually controlled robotics event\\ & organised by KSHITIJ, IIT Kharagpur's Annual Tech Fest\\
+\end{tabular}
+
+\sectionsep
+
+%\section{Activities}
+%\renewcommand\refname{\vskip -1.5cm}
+%\textbf{\href{https://github.com/BytesClub}{Bytes Club}}: Head of Bytes Club, the coding club of %WBUT In-House\\
+%\textbf{\href{season.kde.org/?q=program_home&prg=46}{Season of KDE}}: Mentor of 2017 Season of KDE for the project GCompris\\
+%\location{Participant}
+%\textbullet{} ACM ICPC 2017 Regionals (Amritapuri site)\\
+%\textbullet{} Online game jams, including Ludum Dare and jams hosted by GameJolt\\
+%\textbullet{} Participated in online and offline coding competitions\\
+%\textbullet{} \textit{\textbf{Global Game Jam 2017}}: Participated in Global Game Jam 2017 (Kolkata site).\\ 
+%\textbullet{} \textbf{Web Admin} Created and maintained websites of \textit{\textbf{Konstruct 2016}}, the annual Open source fest of our college and International Conference on Advanced Computing, 2016, which was organised by my college.\\
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     PUBLICATIONS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%\section{Publications} 
+%\renewcommand\refname{\vskip -1.5cm} % Couldn't get this working from the .cls file
+%\bibliographystyle{abbrv}
+%\bibliography{publications}
+%\nocite{*}
+
+\end{minipage} 
+\end{document}  \documentclass[]{article}
